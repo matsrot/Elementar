@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/recipe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "agua"
+inputs = {
+"h": 2,
+"o": 1
+}
+result_name = "Água"
+result_formula = "H2O"
+explanation = "Dois átomos de hidrogênio se ligam a um de oxigênio, formando a molécula de água."
+method_id = "agua_h_o"
+category = "oxido"

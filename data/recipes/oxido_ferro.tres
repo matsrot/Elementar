@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/recipe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "oxido_ferro"
+inputs = {
+"fe": 2,
+"o": 3
+}
+result_name = "Óxido de ferro (III)"
+result_formula = "Fe2O3"
+explanation = "Dois átomos de ferro e três de oxigênio formam o óxido de ferro (III), componente da ferrugem."
+method_id = "oxido_ferro"
+category = "oxido"

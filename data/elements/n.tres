@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ElementData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/element_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "n"
+symbol = "N"
+display_name = "Nitrogênio"
+atomic_number = 7
+group = 15
+period = 2
+description = "Gás que forma cerca de 78% do ar que respiramos."
+category = "não metal"

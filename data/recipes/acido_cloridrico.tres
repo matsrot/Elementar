@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/recipe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "acido_cloridrico"
+inputs = {
+"h": 1,
+"cl": 1
+}
+result_name = "Ácido clorídrico"
+result_formula = "HCl"
+explanation = "Um átomo de hidrogênio se liga a um de cloro. Dissolvido em água, forma o ácido clorídrico, presente também no suco gástrico."
+method_id = "acido_cloridrico"
+category = "cotidiano"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/recipe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "cloreto_potassio"
+inputs = {
+"k": 1,
+"cl": 1
+}
+result_name = "Cloreto de potássio"
+result_formula = "KCl"
+explanation = "Um átomo de potássio se liga a um de cloro. Esse sal é usado em produtos com menos sódio."
+method_id = "cloreto_potassio"
+category = "sal"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/recipe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "dioxido_carbono"
+inputs = {
+"c": 1,
+"o": 2
+}
+result_name = "Dióxido de carbono"
+result_formula = "CO2"
+explanation = "Um átomo de carbono se liga a dois de oxigênio, formando o gás carbônico."
+method_id = "dioxido_carbono"
+category = "oxido"

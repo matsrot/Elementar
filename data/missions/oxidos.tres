@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="MissionData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/mission_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "oxidos"
+title = "Forme um óxido"
+description = "Combine o oxigênio com outro elemento. Cada óxido diferente que você formar vale uma estrela."
+recipe_ids = PackedStringArray("agua", "oxido_sodio", "dioxido_carbono", "oxido_ferro")
+required_category = "oxido"
+next_scene = "res://levels/level_02.tscn"
+show_tutorial = true

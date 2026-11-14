@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="LevelData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://data/level_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/missions/oxidos.tres" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "fase_1"
+title = "Fase 1 · Óxidos"
+description = "Colete hidrogênio, oxigênio, sódio, carbono e ferro e descubra quatro óxidos diferentes. O oxigênio é limitado: separe compostos para reaproveitá-lo."
+scene = "res://levels/test_level.tscn"
+mission = ExtResource("2")
+order = 1

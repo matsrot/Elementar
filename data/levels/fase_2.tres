@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="LevelData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://data/level_data.gd" id="1"]
+[ext_resource type="Resource" path="res://data/missions/sais.tres" id="2"]
+
+[resource]
+script = ExtResource("1")
+id = "fase_2"
+title = "Fase 2 · Cozinha"
+description = "Na cozinha, junte metais ao cloro e descubra quatro sais, como o sal de cozinha. Há também receitas extras para encontrar, como o ácido clorídrico e a amônia."
+scene = "res://levels/level_02.tscn"
+mission = ExtResource("2")
+order = 2
+unlock_level_id = "fase_1"
+unlock_stars = 1

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/recipe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "oxido_sodio"
+inputs = {
+"na": 2,
+"o": 1
+}
+result_name = "Óxido de sódio"
+result_formula = "Na2O"
+explanation = "Dois átomos de sódio se combinam com um de oxigênio, formando o óxido de sódio."
+method_id = "oxido_sodio"
+category = "oxido"

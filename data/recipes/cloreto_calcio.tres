@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/recipe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "cloreto_calcio"
+inputs = {
+"ca": 1,
+"cl": 2
+}
+result_name = "Cloreto de cálcio"
+result_formula = "CaCl2"
+explanation = "Um átomo de cálcio se combina com dois de cloro. Esse sal absorve umidade e é usado para secar ambientes."
+method_id = "cloreto_calcio"
+category = "sal"

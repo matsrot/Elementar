@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ElementData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/element_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "o"
+symbol = "O"
+display_name = "Oxigênio"
+atomic_number = 8
+group = 16
+period = 2
+description = "Gás essencial para a respiração e para a combustão."
+category = "não metal"

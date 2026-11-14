@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ElementData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/element_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "k"
+symbol = "K"
+display_name = "Potássio"
+atomic_number = 19
+group = 1
+period = 4
+description = "Metal macio e muito reativo, importante para músculos e nervos."
+category = "metal alcalino"

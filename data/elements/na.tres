@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ElementData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/element_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "na"
+symbol = "Na"
+display_name = "Sódio"
+atomic_number = 11
+group = 1
+period = 3
+description = "Metal macio e muito reativo, que reage com a água."
+category = "metal alcalino"

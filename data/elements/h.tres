@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ElementData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/element_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "h"
+symbol = "H"
+display_name = "Hidrogênio"
+atomic_number = 1
+group = 1
+period = 1
+description = "O elemento mais leve e mais abundante do universo."
+category = "não metal"

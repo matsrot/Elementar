@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="RecipeData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/recipe_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = "cloreto_ferro"
+inputs = {
+"fe": 1,
+"cl": 3
+}
+result_name = "Cloreto de ferro (III)"
+result_formula = "FeCl3"
+explanation = "Um átomo de ferro se combina com três de cloro, formando um sal usado no tratamento de água."
+method_id = "cloreto_ferro"
+category = "sal"
